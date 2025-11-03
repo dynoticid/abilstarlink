@@ -68,8 +68,6 @@ th{
   font-weight:700;
   background: rgba(255,255,255,0.1);
 }
-
-/* Status text dengan titik di belakang, tanpa glow */
 .status-text{
   font-weight:600;
   font-size:0.95rem;
@@ -82,26 +80,15 @@ th{
 .status-text .dot{
   font-size:1.2rem;
 }
+.status-approve .dot { color: #39ff14; }   
+.status-takedown .dot { color: #ff8c00; } 
+.status-process .dot { color: #ffea00; }   
+.status-rejected .dot { color: #ff0033; }  
 
-/* Warna dot sesuai status */
-.status-approve .dot { color: #39ff14; }   /* Hijau */
-.status-takedown .dot { color: #ff8c00; } /* Oranye */
-.status-process .dot { color: #ffea00; }   /* Kuning */
-.status-rejected .dot { color: #ff0033; }  /* Merah */
-
-/* Tombol Show langsung link */
-.show-btn{
-  background: rgba(255,255,255,0.1);
-  color: #fff;
-  border: none;
-  padding: 4px 10px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size:0.85rem;
-  text-decoration: none;
-}
-.show-btn:hover{
-  background: rgba(255,255,255,0.2);
+.smartlink-text{
+  font-weight:600;
+  color:#39f;
+  text-decoration:underline;
 }
 
 footer{
@@ -134,22 +121,22 @@ footer{
       <tr>
         <td>MXSHUP ENAFF</td>
         <td><span class="status-text status-approve">Approve<span class="dot">•</span></span></td>
-        <td><a class="show-btn" href="https://fanlink.tv/wNC3" target="_blank">Show</a></td>
+        <td><a href="https://fanlink.tv/wNC3" target="_blank" class="smartlink-text">Link</a></td>
       </tr>
       <tr>
         <td>DROL HUKUM ALAM</td>
         <td><span class="status-text status-approve">Approve<span class="dot">•</span></span></td>
-        <td><a class="show-btn" href="https://fanlink.tv/wNDe" target="_blank">Show</a></td>
+        <td><a href="https://fanlink.tv/wNDe" target="_blank" class="smartlink-text">Link</a></td>
       </tr>
       <tr>
         <td>ASIKIN AJA</td>
         <td><span class="status-text status-approve">Approve<span class="dot">•</span></span></td>
-        <td><a class="show-btn" href="https://fanlink.tv/wNDf" target="_blank">Show</a></td>
+        <td><a href="https://fanlink.tv/wNDf" target="_blank" class="smartlink-text">Link</a></td>
       </tr>
       <tr>
         <td>BBHC BARUDAK WOLF</td>
         <td><span class="status-text status-approve">Approve<span class="dot">•</span></span></td>
-        <td><a class="show-btn" href="https://fanlink.tv/wNDg" target="_blank">Show</a></td>
+        <td><a href="https://fanlink.tv/wNDg" target="_blank" class="smartlink-text">Link</a></td>
       </tr>
       <tr>
         <td>BBHC STRONG BEAT</td>
